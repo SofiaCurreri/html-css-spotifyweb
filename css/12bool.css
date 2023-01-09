@@ -114,13 +114,23 @@
     align-items: center;
 }
 
+
+
 /* MARGINI */
 .ml-05{
     margin-left: 0.5rem;
 }
 
+.mt-05{
+    margin-top: 0.5rem;
+}
+
 .mt-1{
     margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
 }
 
 .mb-05{

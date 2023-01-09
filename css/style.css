@@ -13,6 +13,10 @@
     height: 700px;
 }
 
+h4{
+    color: white;
+}
+
 header{
 
     /* debug */
@@ -43,33 +47,56 @@ footer{
     text-align: center;
 }
 
-.sidebar{
-    width: 12.5rem;
-    margin: auto;
-    padding: 1.5rem;
-    /* debug */
-    height: 700px;
-    background-color: red;
-}
-
 .container-xs{
     width: calc(100% - 12.5rem);
     margin: auto;
+    
     /* debug */
     height: 700px;
     background-color: green;
 }
 
+
+/* SIDEBAR */
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 12.5rem;
+    margin: auto;
+    padding: 1.5rem;
+    background-color: black;
+    /* debug */
+    height: 700px;
+    
+}
+
 ul{
     list-style: none;
+    line-height: 1.5rem;
 }
 
 ul img{
     height: 1.5rem;
 }
 
+.size-icon{
+    font-size: 2rem;
+}
 
+.download{
+    height: 1rem;
+}
 
+.separatore{
+    border: 1px solid #575757;
+}
+
+.profile{
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: #575757;
+}
 
 
 
