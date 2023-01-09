@@ -5,8 +5,34 @@
 }
 
 .container{
-    margin: 0 auto;
-    width: 1200px;
+    width: 100%;
+    display: flex;
+
+    /* debug */
+    background-color: blue;
+    height: 800px;
+}
+
+header{
+
+    /* debug */
+    margin-top: 50px;
+    height: 150px;
+    background-color: yellow;
+}
+
+main{
+
+    /* debug */
+    height: 450px;
+    background-color: palevioletred;
+}
+
+footer{
+
+    /* debug */
+    height: 100px;
+    background-color: aqua;
 }
 
 .row{
@@ -16,4 +42,20 @@
     flex-direction: row;
     align-items: stretch;
     text-align: center;
+}
+
+.sidebar{
+    width: 12.5rem;
+    margin: auto;
+    /* debug */
+    height: 700px;
+    background-color: red;
+}
+
+.container-xs{
+    width: calc(100% - 12.5rem);
+    margin: auto;
+    /* debug */
+    height: 700px;
+    background-color: green;
 }
