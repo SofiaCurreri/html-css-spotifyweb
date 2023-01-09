@@ -17,6 +17,6 @@ body {
 img,
 svg,
 picture,
-video {
+video{
 	max-width: 100%;
 }

@@ -9,7 +9,7 @@
     width: 1200px;
 }
 
-.row {
+.row{
     height: 70px;
     display: flex;
     flex-wrap: wrap;
