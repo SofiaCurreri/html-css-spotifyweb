@@ -107,3 +107,22 @@
     margin-left: calc((100% / 12) * 1);
 }
 
+
+/* DISPLAY */
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+/* MARGINI */
+.ml-05{
+    margin-left: 0.5rem;
+}
+
+.mt-1{
+    margin-top: 1rem;
+}
+
+.mb-05{
+    margin-bottom: 0.5rem;
+}
