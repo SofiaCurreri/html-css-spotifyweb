@@ -115,11 +115,17 @@
     align-items: center;
 }
 
-
+.d-inline{
+    display: inline;
+}
 
 /* MARGINI */
 .ml-05{
     margin-left: 0.5rem;
+}
+
+.ml-1{
+    margin-left: 1.5rem;
 }
 
 .mr-05{
