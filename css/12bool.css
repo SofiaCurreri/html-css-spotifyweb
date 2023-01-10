@@ -108,6 +108,7 @@
 }
 
 
+
 /* DISPLAY */
 .d-flex{
     display: flex;
@@ -139,4 +140,19 @@
 
 .mb-05{
     margin-bottom: 0.5rem;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+
+/* PADDING */
+.p-1{
+    padding: 1rem;
+}
+
+/* LINE-HEIGHT */
+.lh-1{
+    line-height: 1.5rem;
 }

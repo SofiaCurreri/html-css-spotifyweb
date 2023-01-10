@@ -22,7 +22,7 @@ a{
     color: currentColor;
 }
 
-h3{
+h2,h3{
     color: white;
 }
 
@@ -30,15 +30,6 @@ h3{
 footer{
     height: var(--footer-height);
     background-color: rgb(40, 40, 40);
-}
-
-.row{
-    height: 70px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: stretch;
-    text-align: center;
 }
 
 .content{
@@ -112,10 +103,10 @@ header {
     justify-content: flex-end;
 }
 
-.upgrade{
+.upgrade.mr-05{
     border: 2px solid white;
-    background-color: rgb(8, 11, 18);;
-    color: white;
+    background-color: rgb(8, 11, 18);
+    color:white;
     padding: 12px 30px;
     border-radius: 20px;
 }
@@ -123,25 +114,48 @@ header {
 
 /* MAIN */
 main{
-    color: #eee;
+    /* color: #eee; */
     height: 100%;
     padding-top: var(--footer-height);
     background-color: rgb(20, 25, 34);
     overflow: auto;
 }
 
+main>nav>ul{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
 
+.row {
+    /* height: 200px; */
+    gap: 0.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: stretch;
+    text-align: center;
+}
 
+[class*="col-"] img{
+    width: 10rem;
+}
 
 
 
 /* MEDIA QUERY */
 @media screen and (max-width: 878px) {
     
+    .row{
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 639px) {
     
+    .row {
+            flex-wrap: wrap;
+        }
 }
 
 @media screen and (max-width: 552px) {
