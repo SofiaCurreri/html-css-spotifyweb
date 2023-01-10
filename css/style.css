@@ -217,6 +217,15 @@ footer img{
     font-size: 2rem;
 }
 
+.controls.right .progress-bar{
+    width: 10rem;
+}
+
+.controls.right .progress{
+    width: 20%;
+}
+
+
 
 
 /* MEDIA QUERY */
