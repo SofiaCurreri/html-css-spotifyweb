@@ -205,6 +205,19 @@ footer img{
     display: block;
 }
 
+.controls{
+    color: white;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls.bigger .play{
+    font-size: 2rem;
+}
+
+
 
 /* MEDIA QUERY */
 @media screen and (max-width: 878px) {
