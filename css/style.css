@@ -148,6 +148,23 @@ main>nav>ul{
     border-radius: 50%;
 }
 
+.play-album{
+    display: none;
+}
+
+[class*="col-"] img:hover{
+    background-color: black;
+    opacity: 0.2;
+}
+
+/* [class*="col-"] img:hover .play-album{
+    display: block;
+    color: white;
+} */
+
+
+
+
 
 /* FOOTER */
 footer{
@@ -215,6 +232,10 @@ footer img{
 
 .controls.bigger .play{
     font-size: 2rem;
+}
+
+.controls.right{
+    gap: 1rem;
 }
 
 .controls.right .progress-bar{
