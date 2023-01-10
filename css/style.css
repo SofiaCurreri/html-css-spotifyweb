@@ -18,6 +18,11 @@
     height: calc(100vh - var(--footer-height));
 }
 
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
 h3{
     color: white;
 }
@@ -88,8 +93,12 @@ ul img{
     height: 1.5rem;
 }
 
-.size-icon{
-    font-size: 2rem;
+.crea-playlist{
+    background-color: rgb(163, 163, 163);
+    color: black;
+    width: 1.5rem;
+    text-align: center;
+    font-size: x-large;
 }
 
 .download{
