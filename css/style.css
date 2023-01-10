@@ -6,7 +6,7 @@
 
 :root{
     --footer-height: 6rem;
-    --sidebar-width: 19rem;
+    --sidebar-width: 12.5rem;
 }
 
 .top-content{
@@ -26,6 +26,9 @@ h2,h3{
     color: white;
 }
 
+h2{
+    font-weight: 20rem;
+}
 
 footer{
     height: var(--footer-height);
@@ -139,6 +142,10 @@ main>nav>ul{
 
 [class*="col-"] img{
     width: 10rem;
+}
+
+.circle{
+    border-radius: 50%;
 }
 
 
