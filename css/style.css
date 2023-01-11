@@ -30,11 +30,6 @@ h2{
     font-weight: 20rem;
 }
 
-footer{
-    height: var(--footer-height);
-    background-color: rgb(40, 40, 40);
-}
-
 .content{
     width: calc(100% - var(--sidebar-width));
     
@@ -42,6 +37,9 @@ footer{
     height: calc(100vh - var(--footer-height));
 }
 
+a:hover {
+    color: white;
+}
 
 /* SIDEBAR */
 .sidebar{
@@ -78,6 +76,10 @@ ul img{
     width: 1.5rem;
     text-align: center;
     font-size: x-large;
+}
+
+li:hover .crea-playlist{
+    background-color: white;
 }
 
 .download{
@@ -168,9 +170,15 @@ main>nav>ul{
 
 /* FOOTER */
 footer{
+    height: var(--footer-height);
+}
+
+.footer-content{
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgb(40, 40, 40);
 }
 
 footer img{
@@ -246,7 +254,14 @@ footer img{
     width: 20%;
 }
 
+.heart:hover,
+.folder:hover{
+    color: white;
+}
 
+.underline:hover{
+    text-decoration: underline;
+}
 
 
 /* MEDIA QUERY */
@@ -254,6 +269,16 @@ footer img{
     
     .row{
         flex-wrap: wrap;
+    }
+
+    /* .wrapping{
+        display: flex;
+        flex-wrap: wrap;
+    } */
+
+    
+    .footer-content{
+        width: 100%;
     }
 }
 
