@@ -22,7 +22,8 @@ a{
     color: currentColor;
 }
 
-h2,h3,h4{
+h2,h3,h4,
+.home{
     color: white;
 }
 
@@ -75,7 +76,7 @@ ul img{
     width: 3px;
     background-color: greenyellow;
     position: relative;
-    left: -24px;
+    left: -21px;
 }
 
 .crea-playlist{
@@ -334,7 +335,8 @@ footer img{
         display: none;
     }
 
-    .logo{
+    .logo,
+    .side-selected{
         display: none;
     }
 
