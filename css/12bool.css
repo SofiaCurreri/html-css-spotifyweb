@@ -261,6 +261,10 @@
     margin-right: 0.5rem;
 }
 
+.mr-2{
+    margin-right: 2rem;
+}
+
 .mt-05{
     margin-top: 0.5rem;
 }
@@ -285,6 +289,14 @@
 /* PADDING */
 .p-1{
     padding: 1rem;
+}
+
+.p-05{
+    padding: 0.5rem;
+}
+
+.pl-1{
+    padding-left: 1rem;
 }
 
 /* LINE-HEIGHT */

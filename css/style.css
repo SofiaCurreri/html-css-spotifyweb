@@ -126,12 +126,16 @@ header {
     justify-content: flex-end;
 }
 
-.upgrade.mr-05{
+.upgrade.mr-2{
     border: 2px solid white;
     background-color: rgb(8, 11, 18);
     color:white;
-    padding: 12px 30px;
+    padding: 10px 15px;
     border-radius: 20px;
+}
+
+header button:hover{
+    transform: scale(1.2);
 }
 
 
@@ -148,6 +152,7 @@ main>nav>ul{
     display: flex;
     gap: 1.5rem;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .nav-item{
@@ -223,6 +228,8 @@ footer{
 
 footer img{
     width: 15%;
+    max-height: var(--footer-height);
+    max-width: var(--footer-height);
 }
 
 .bigger{
@@ -396,8 +403,17 @@ footer img{
         flex-basis: calc((100% / 12) * 6);
         max-width: calc((100% / 12) * 6);
     }
+    
+    header{
+        width: 80%;
+    }
+
+    .content{
+        width:80%;
+    }
 
     .footer-content{
         max-width: 100%;
     }
+    
 }
