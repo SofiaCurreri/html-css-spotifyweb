@@ -282,6 +282,11 @@ footer img{
     font-size: 2rem;
 }
 
+.play:hover {
+    transform: scale(1.3);
+    transition: 2s;
+}
+
 .controls.right{
     gap: 1rem;
 }
