@@ -42,6 +42,7 @@ a:hover {
     color: white;
 }
 
+
 /* SIDEBAR */
 .sidebar{
     display: flex;
@@ -65,6 +66,14 @@ a:hover {
 ul{
     list-style: none;
     line-height: 1.5rem;
+}
+
+svg{
+    width: 1.5rem;
+}
+
+.cerca:hover{
+    fill: greenyellow;
 }
 
 ul img{
@@ -299,9 +308,9 @@ footer img{
 /* MEDIA QUERY */
 @media screen and (max-width: 878px) {
     
-    .row{
+    /* .row{
         flex-wrap: wrap;
-    }
+    } */
 
     /* .wrapping{
         display: flex;
@@ -317,7 +326,7 @@ footer img{
 @media screen and (max-width: 639px) {
     
     .row {
-            flex-wrap: wrap;
+        flex-wrap: wrap;
         }
 
     .icons{
