@@ -170,7 +170,6 @@ main>nav>ul{
 
 .row {
     /* height: 200px; */
-    gap: 0.5rem;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
