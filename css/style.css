@@ -70,6 +70,14 @@ ul img{
     height: 1.5rem;
 }
 
+.side-selected{
+    height: 22px;
+    width: 3px;
+    background-color: greenyellow;
+    position: relative;
+    left: -24px;
+}
+
 .crea-playlist{
     background-color: rgb(163, 163, 163);
     color: black;
@@ -132,6 +140,19 @@ main>nav>ul{
     justify-content: center;
 }
 
+.nav-item{
+    position: relative;
+}
+
+.nav-selected{
+    height: 2px;
+    width: 30px;
+    background-color: greenyellow;
+    position: absolute;
+    bottom: 0px;
+    left: 23px;
+}
+
 .row {
     /* height: 200px; */
     gap: 0.5rem;
@@ -150,19 +171,29 @@ main>nav>ul{
     border-radius: 50%;
 }
 
-.play-album{
-    display: none;
-}
-
 [class*="col-"] img:hover{
     background-color: black;
     opacity: 0.2;
 }
 
-/* [class*="col-"] img:hover .play-album{
+.cover-album{
+    position: relative;
+}
+
+.play-album{
     display: block;
     color: white;
-} */
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+[class*="col-"] img:hover .play-album{
+    display: block;
+    color: white;
+} 
 
 
 
