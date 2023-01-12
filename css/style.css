@@ -12,8 +12,6 @@
 .top-content{
     width: 100%;
     display: flex;
-
-    /* debug */
     height: calc(100vh - var(--footer-height));
 }
 
@@ -34,7 +32,6 @@ h2{
 .content{
     width: calc(100% - var(--sidebar-width));
     
-    /* debug */
     height: calc(100vh - var(--footer-height));
 }
 
@@ -51,9 +48,9 @@ a:hover {
     width: var(--sidebar-width);
     padding: 1.5rem;
     background-color: black;
-    /* debug */
     height: calc(100vh - var(--footer-height));
 }
+
 
 .logo{
     height: 3rem;
@@ -87,6 +84,7 @@ ul img{
     position: relative;
     left: -21px;
 }
+
 
 .crea-playlist{
     background-color: rgb(163, 163, 163);
